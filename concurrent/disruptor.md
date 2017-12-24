@@ -68,7 +68,28 @@ public long p8, p9, p10, p11, p12, p13, p14; // cache line padding
 ## 怎样使用disruptor
 
 
+### ring buffer
+
+### 如何读取
+
+在消费者和ringbuffer之间存在一个ConsumerBarrier，与乐观锁不同的是，当buffer为空，不是consumer一直问“数据来了没？” 而是consumer原地等待，直到ConsumerBarrier通知说有了新的消息。
+
+### 如何写入
+
+在生产者和ringbuffer之后存在一个ProducerBarrier。写入分为两个阶段，第一个阶段是申请下一个节点，第二阶段是提交新的数据。
+
+#### 多个生产者的场景
+
+当有多个生产者的时候，如果同时多个生产者申请到写入节点，但是前面的提交较慢。这时候 ProducerBarrier 的ClaimStrategy就一直自旋，直到前面的生产者提交再修改可用位点。
 
 ## 总结
 
+- 本质上是个ringbuffer,RingBuffer 复用内存，减少分配新空间带来的时间和空间损耗。
+- buffer(就是数组)做过优化防止JVM伪共享，lock free 是通过CAS自旋，注意不是wait free，多线程并发获取buffer中的序号，在这里需要CAS，把事件放入槽中。
+- 工作线程调度是交给jdk 线程池，只要buffer中有事件，就不停提交给线程池所以就是一个牛逼的临界区，无锁解决多线程读写
+- Busy Spin（疯狂死循环）是多核架构上最快的通信方法，比所有要经 kernel 走信号量之类都快。当然也会带来更多的功耗和损耗。
+
 ## 参考文档
+
+1. [并发框架Disruptor译文](http://ifeve.com/disruptor/)
+
