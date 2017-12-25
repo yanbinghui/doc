@@ -1,3 +1,2 @@
-1. vm + html
-2. vm + js
-3. blocky
+1. [开发前端的几种方式](https://github.com/yanbinghui/doc/blob/master/frontend/create_project.md)
+2. blocky
