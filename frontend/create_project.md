@@ -40,3 +40,9 @@
 其中的服务分两类，一类是可以使用依赖注入。如state，controller，service，directives，filters。一类是直接使用路径引入，如jsHelper和model。
 
 Html也分为三类，一类是states中跟controller映射的html；一种是jsHelper映射的html；还有一种是直接showDialog对应的页面。在jsHelper中调用，还可以设置callback函数。
+
+#### 前端跳转的方式
+
+1. 可以通过ui-sref, href跳转
+2. 通过在controller中依赖其他的helper函数触发跳转。
+
