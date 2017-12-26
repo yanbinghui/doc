@@ -77,3 +77,8 @@ release()
  - AtomicInteger
  - AtomicLong
  - AtomicReference
+ 
+ 
+### 参考链接
+
+[Java 并发工具包 java.util.concurrent 用户指南](http://blog.csdn.net/defonds/article/details/44021605/)
