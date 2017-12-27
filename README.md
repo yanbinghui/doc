@@ -8,6 +8,13 @@
 6. [前端学习](https://github.com/yanbinghui/doc/blob/master/frontend/index.md)
 
 
+## 近期准备更新的一些列表
+
+- jdk8的一些特性使用
+- quartz的一些使用介绍
+- 时序数据库的使用介绍
+
+
 
 #### 个人简介
 
