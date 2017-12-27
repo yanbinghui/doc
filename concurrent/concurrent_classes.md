@@ -28,8 +28,7 @@ LinkedBlockingDeque 是一个双端队列，在它为空的时候，一个试图
  - ConcurrentHashMap
  - ConcurrentNavigableMap（interface）
      1. headMap(), tailMap(), subMap()
-     
-     2. ConcurrentSkipListMap（实现）
+     2. ConcurrentSkipListMap（实现）
  
 ## CountDownLatch
 
