@@ -1,6 +1,6 @@
 # 开发前端应用的几种方式
 
-## java + vm
+## 在java中使用VelocityEngine merge VM
 
 简单介绍下这种方式，首先实现一个HttpServlet，在get和post方法中，使用VelocityEngine，将layout和include screen merge（VelocityEngine.mergeTemplate). 
 这种方法的特点是比较简单，直接在vm里面包含js和html，js负责动态网页部分，比如button触发请求等。
