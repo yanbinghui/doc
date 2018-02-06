@@ -1,2 +1,2 @@
-## 1. [openTracing](https://github.com/yanbinghui/summary/edit/master/tracing/opentracing.md)
+## 1. [openTracing](https://github.com/yanbinghui/summary/blob/master/tracing/opentracing.md)
 
