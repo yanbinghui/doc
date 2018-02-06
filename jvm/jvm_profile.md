@@ -28,3 +28,5 @@
 3. [OpenJDK](https://github.com/bloodstars/OpenJDK)
 
 4. [强引用，弱引用，软引用](http://blog.csdn.net/mazhimazh/article/details/19752475)
+
+5. [四种引用](https://www.cnblogs.com/yw-ah/p/5830458.html)
