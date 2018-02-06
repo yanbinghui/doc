@@ -30,3 +30,6 @@
 
 13. 线程安全
 
+## JVM 高级技术
+
+14. [JVM 调优](https://github.com/yanbinghui/doc/blob/master/jvm/jvm_profile.md)
