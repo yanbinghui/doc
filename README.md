@@ -7,6 +7,7 @@
 5. spring
 6. [前端学习](https://github.com/yanbinghui/doc/blob/master/frontend/index.md)
 7. [深入理解Java虚拟机](https://github.com/yanbinghui/doc/blob/master/jvm/index.md)
+8. [OpenTracing](https://github.com/yanbinghui/summary/blob/master/tracing/index.md)
 
 
 ## 近期准备更新的一些列表
