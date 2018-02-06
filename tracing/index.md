@@ -1,6 +1,2 @@
-# OpenTracing
+## 1. [openTracing](https://github.com/yanbinghui/summary/edit/master/tracing/opentracing.md)
 
-
-## 参考文献
-
-1. [OpenTracing中文Spec](https://wu-sheng.gitbooks.io/opentracing-io/content/)
