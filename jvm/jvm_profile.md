@@ -26,3 +26,5 @@
 2. [一步步优化JVM](https://yq.aliyun.com/articles/140597?spm=a2c4e.11153959.blogcont140555.18.437c3187n3OxnC)
 
 3. [OpenJDK](https://github.com/bloodstars/OpenJDK)
+
+4. [强引用，弱引用，软引用](http://blog.csdn.net/mazhimazh/article/details/19752475)
