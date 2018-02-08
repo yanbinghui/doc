@@ -5,7 +5,8 @@
 #### 3. 架构优化与索引
 
 - 回表与覆盖索引
- 
+
+  注：Extra: Using index，Using filesort
   
 #### 4. 查询性能优化
 #### 5. mysql高级特性
