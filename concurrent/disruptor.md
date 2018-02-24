@@ -93,3 +93,4 @@ public long p8, p9, p10, p11, p12, p13, p14; // cache line padding
 
 1. [并发框架Disruptor译文](http://ifeve.com/disruptor/)
 
+2. [Disruptor分享](https://www.jianshu.com/p/d3e5915a7ac5)
