@@ -1,0 +1,1 @@
+直接阅读 ThreadLocal.java 源码，里面主要包含两部分，一个是hashcode和固定大小的HASH_INCREMENT，另一个是ThreadLocalMap，里面的entry是弱引用。实现了map的所有api
