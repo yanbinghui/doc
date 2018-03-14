@@ -12,8 +12,9 @@
 
 2. 阿里巴巴java规约建议直接使用ThreadPoolExecutor，用户可以对其中的参数有感知。
 
+```
  其中参数为：
- ```
+
         int corePoolSize,
         int maximumPoolSize,
         long keepAliveTime,
@@ -21,4 +22,4 @@
         BlockingQueue<Runnable> workQueue,
         ThreadFactory threadFactory,
         RejectedExecutionHandler handler
- ```
+```
