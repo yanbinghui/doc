@@ -4,7 +4,7 @@
 
 #### 1. 相关类
 
-Executors：包含一些快捷创建 ExecutorService 的方法，主要调用 ThreadPoolExecutor 和 ScheduledExecutor
+　Executors：包含一些快捷创建 ExecutorService 的方法，主要调用 ThreadPoolExecutor 和 ScheduledExecutor
 
 ScheduledThreadPoolExecutor：可以提交定时任务的ThreadPoolExecutor
 
