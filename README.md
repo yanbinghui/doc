@@ -2,12 +2,15 @@
 
 1. [时序数据库](https://github.com/yanbinghui/summary/blob/master/tsdb/index.md)
 2. [并发](https://github.com/yanbinghui/doc/blob/master/concurrent/index.md)
-3. 实时计算
+3. [实时计算](https://github.com/yanbinghui/summary/tree/master/streaming/index.md)
 4. [数据库](https://github.com/yanbinghui/doc/tree/master/database/index.md)
 5. spring
 6. [前端学习](https://github.com/yanbinghui/doc/blob/master/frontend/index.md)
 7. [深入理解Java虚拟机](https://github.com/yanbinghui/doc/blob/master/jvm/index.md)
 8. [Tracing](https://github.com/yanbinghui/summary/blob/master/tracing/index.md)
+9. [aws](https://github.com/yanbinghui/summary/blob/master/aws/index.md)
+10. [jvm](https://github.com/yanbinghui/summary/tree/master/jvm/index.md)
+11. [中间件](https://github.com/yanbinghui/summary/tree/master/middleware)
 
 
 ## 近期准备更新的一些列表
