@@ -1,1 +1,1 @@
-1. [JStorm](https://github.com/yanbinghui/summary/new/master/streaming/JStorm.md)
+1. [JStorm](https://github.com/yanbinghui/summary/blob/master/streaming/JStorm.md)
